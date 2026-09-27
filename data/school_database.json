@@ -1,0 +1,468 @@
+{
+  "schools": [
+    {
+      "id": 1,
+      "school_uuid": "SCH-HJAMIA-01",
+      "name": "Hjamia Model High School",
+      "username": "hjamiaschool",
+      "password_hash": "8a83b1c4a38ab786ad0bda07fc7dd45986bff666e28e42e4dc13ebe866850d9eb93b77a10d3e93de2863ecdad363195fe725a0abe2525ecbfa57acbac971dec7:7804fcb72e22cc680987cfa79edbc7ca",
+      "phone": "0300-1234567",
+      "email": "info@hjamiaschool.edu.pk",
+      "address": "Campus 1, Education Boulevard, Lahore, Pakistan",
+      "head_name": "Prof. Muhammad Tariq",
+      "academic_session": "2025-2026",
+      "urdu_slogan": "تعلیم روشنی ہے، کردار کامیابی کی پہچان ہے",
+      "logo_path": null,
+      "signature_path": null,
+      "stamp_path": null,
+      "created_at": "2026-09-27T10:55:00.429Z"
+    }
+  ],
+  "classes": [
+    {
+      "id": 1,
+      "school_id": 1,
+      "name": "Play Group",
+      "numeric_order": 1,
+      "monthly_fee": 1500
+    },
+    {
+      "id": 2,
+      "school_id": 1,
+      "name": "Nursery",
+      "numeric_order": 2,
+      "monthly_fee": 1500
+    },
+    {
+      "id": 3,
+      "school_id": 1,
+      "name": "Prep",
+      "numeric_order": 3,
+      "monthly_fee": 1800
+    },
+    {
+      "id": 4,
+      "school_id": 1,
+      "name": "Class 1",
+      "numeric_order": 4,
+      "monthly_fee": 2000
+    },
+    {
+      "id": 5,
+      "school_id": 1,
+      "name": "Class 2",
+      "numeric_order": 5,
+      "monthly_fee": 2000
+    },
+    {
+      "id": 6,
+      "school_id": 1,
+      "name": "Class 3",
+      "numeric_order": 6,
+      "monthly_fee": 2200
+    },
+    {
+      "id": 7,
+      "school_id": 1,
+      "name": "Class 4",
+      "numeric_order": 7,
+      "monthly_fee": 2200
+    },
+    {
+      "id": 8,
+      "school_id": 1,
+      "name": "Class 5",
+      "numeric_order": 8,
+      "monthly_fee": 2500
+    },
+    {
+      "id": 9,
+      "school_id": 1,
+      "name": "Class 6",
+      "numeric_order": 9,
+      "monthly_fee": 2800
+    },
+    {
+      "id": 10,
+      "school_id": 1,
+      "name": "Class 7",
+      "numeric_order": 10,
+      "monthly_fee": 2800
+    },
+    {
+      "id": 11,
+      "school_id": 1,
+      "name": "Class 8",
+      "numeric_order": 11,
+      "monthly_fee": 3000
+    },
+    {
+      "id": 12,
+      "school_id": 1,
+      "name": "Class 9",
+      "numeric_order": 12,
+      "monthly_fee": 3500
+    },
+    {
+      "id": 13,
+      "school_id": 1,
+      "name": "Class 10",
+      "numeric_order": 13,
+      "monthly_fee": 3500
+    }
+  ],
+  "teachers": [
+    {
+      "id": 1,
+      "school_id": 1,
+      "teacher_code": "TCH-1001",
+      "employee_id": "EMP-01",
+      "full_name": "Muhammad Asif",
+      "father_name": "Abdul Rehman",
+      "gender": "Male",
+      "qualification": "M.Sc Mathematics, B.Ed",
+      "cnic": "35201-1122334-1",
+      "mobile_number": "0301-4455667",
+      "address": "Johar Town, Lahore",
+      "marital_status": "Married",
+      "date_of_birth": "1988-04-12",
+      "date_of_enrolment": "2020-03-01",
+      "teaching_level": "High",
+      "subject": "Mathematics",
+      "designation": "Senior Teacher",
+      "emergency_contact": "0300-9988776",
+      "salary": 55000,
+      "photo_path": null,
+      "status": "Active",
+      "created_at": "2026-09-27T10:55:00.429Z"
+    },
+    {
+      "id": 2,
+      "school_id": 1,
+      "teacher_code": "TCH-1002",
+      "employee_id": "EMP-02",
+      "full_name": "Farzana Kausar",
+      "father_name": "Kausar Ali",
+      "gender": "Female",
+      "qualification": "M.A English, M.Ed",
+      "cnic": "35201-9988112-2",
+      "mobile_number": "0322-8877665",
+      "address": "Model Town, Lahore",
+      "marital_status": "Married",
+      "date_of_birth": "1992-08-25",
+      "date_of_enrolment": "2021-02-15",
+      "teaching_level": "Middle",
+      "subject": "English & Urdu",
+      "designation": "Subject Specialist",
+      "emergency_contact": "0321-1122334",
+      "salary": 48000,
+      "photo_path": null,
+      "status": "Active",
+      "created_at": "2026-09-27T10:55:00.429Z"
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "school_id": 1,
+      "student_code": "STD-1001",
+      "student_name": "Hamza Farooq",
+      "father_name": "Farooq Ahmad",
+      "mother_name": "Sobia Farooq",
+      "father_mobile": "0300-5544332",
+      "roll_number": "01",
+      "class_name": "Class 5",
+      "section": "A",
+      "admission_number": "ADM-501",
+      "admission_date": "2024-03-10",
+      "date_of_birth": "2014-06-15",
+      "gender": "Male",
+      "address": "Street 4, Sector B, Lahore",
+      "previous_school": "City Grammar School",
+      "guardian_name": "Farooq Ahmad",
+      "guardian_contact": "0300-5544332",
+      "monthly_fee": 2500,
+      "photo_path": null,
+      "status": "Active",
+      "created_at": "2026-09-27T10:55:00.429Z"
+    },
+    {
+      "id": 2,
+      "school_id": 1,
+      "student_code": "STD-1002",
+      "student_name": "Ayesha Bilal",
+      "father_name": "Bilal Hussain",
+      "mother_name": "Amina Bilal",
+      "father_mobile": "0313-7766554",
+      "roll_number": "02",
+      "class_name": "Class 5",
+      "section": "A",
+      "admission_number": "ADM-502",
+      "admission_date": "2024-03-12",
+      "date_of_birth": "2014-09-20",
+      "gender": "Female",
+      "address": "Block C, Gulberg, Lahore",
+      "previous_school": "Beacon Public School",
+      "guardian_name": "Bilal Hussain",
+      "guardian_contact": "0313-7766554",
+      "monthly_fee": 2500,
+      "photo_path": null,
+      "status": "Active",
+      "created_at": "2026-09-27T10:55:00.429Z"
+    },
+    {
+      "id": 3,
+      "school_id": 1,
+      "student_code": "STD-1003",
+      "student_name": "Zainab Fatima",
+      "father_name": "Sultan Mehmood",
+      "mother_name": "Farah Sultan",
+      "father_mobile": "0333-8899001",
+      "roll_number": "01",
+      "class_name": "Class 10",
+      "section": "A",
+      "admission_number": "ADM-1001",
+      "admission_date": "2023-04-01",
+      "date_of_birth": "2009-11-18",
+      "gender": "Female",
+      "address": "Faisal Town, Lahore",
+      "previous_school": "Allama Iqbal Model School",
+      "guardian_name": "Sultan Mehmood",
+      "guardian_contact": "0333-8899001",
+      "monthly_fee": 3500,
+      "photo_path": null,
+      "status": "Active",
+      "created_at": "2026-09-27T10:55:00.429Z"
+    }
+  ],
+  "staff": [
+    {
+      "id": 1,
+      "school_id": 1,
+      "staff_code": "STF-1001",
+      "full_name": "Akram Masih",
+      "father_name": "Inayat Masih",
+      "designation": "Security Guard",
+      "mobile": "0345-9988771",
+      "cnic": "35201-4433221-3",
+      "salary": 28000,
+      "date_of_joining": "2022-01-10",
+      "address": "Kot Lakhpat, Lahore",
+      "emergency_contact": "0300-1122998",
+      "photo_path": null,
+      "status": "Active",
+      "created_at": "2026-09-27T10:55:00.429Z"
+    },
+    {
+      "id": 2,
+      "school_id": 1,
+      "staff_code": "STF-1002",
+      "full_name": "Kashif Mehmood",
+      "father_name": "Mehmood Ali",
+      "designation": "Computer Operator",
+      "mobile": "0305-6677889",
+      "cnic": "35201-7788990-1",
+      "salary": 35000,
+      "date_of_joining": "2021-08-01",
+      "address": "Township, Lahore",
+      "emergency_contact": "0301-2233445",
+      "photo_path": null,
+      "status": "Active",
+      "created_at": "2026-09-27T10:55:00.429Z"
+    }
+  ],
+  "inventory": [
+    {
+      "id": 1,
+      "school_id": 1,
+      "item_code": "INV-1001",
+      "item_name": "Dual Student Wooden Desks",
+      "item_category": "Furniture",
+      "quantity": 50,
+      "unit": "Pcs",
+      "purchase_price": 4500,
+      "total_value": 225000,
+      "purchase_date": "2024-01-15",
+      "supplier": "National Furniture Works",
+      "item_condition": "Good",
+      "location": "Block A & B Classrooms",
+      "description": "Sturdy Sheesham wood framed two-seater student desks.",
+      "photo_path": null,
+      "remarks": "Inspected for session 2025",
+      "created_at": "2026-09-27T10:55:00.429Z"
+    },
+    {
+      "id": 2,
+      "school_id": 1,
+      "item_code": "INV-1002",
+      "item_name": "Computer Lab Core i5 Workstations",
+      "item_category": "Electronics",
+      "quantity": 25,
+      "unit": "Units",
+      "purchase_price": 32000,
+      "total_value": 800000,
+      "purchase_date": "2024-02-20",
+      "supplier": "Hafeez Centre Tech Links",
+      "item_condition": "Good",
+      "location": "Main IT Computer Lab",
+      "description": "Core i5 8th Gen, 16GB RAM, 256GB SSD with 19\" LED screens.",
+      "photo_path": null,
+      "remarks": "Under hardware warranty",
+      "created_at": "2026-09-27T10:55:00.429Z"
+    }
+  ],
+  "student_attendance": [
+    {
+      "id": 1,
+      "school_id": 1,
+      "student_id": 1,
+      "date": "2026-09-27",
+      "status": "Present"
+    },
+    {
+      "id": 2,
+      "school_id": 1,
+      "student_id": 2,
+      "date": "2026-09-27",
+      "status": "Present"
+    },
+    {
+      "id": 3,
+      "school_id": 1,
+      "student_id": 3,
+      "date": "2026-09-27",
+      "status": "Leave"
+    }
+  ],
+  "teacher_attendance": [
+    {
+      "id": 1,
+      "school_id": 1,
+      "teacher_id": 1,
+      "date": "2026-09-27",
+      "status": "Present"
+    },
+    {
+      "id": 2,
+      "school_id": 1,
+      "teacher_id": 2,
+      "date": "2026-09-27",
+      "status": "Present"
+    }
+  ],
+  "staff_attendance": [
+    {
+      "id": 1,
+      "school_id": 1,
+      "staff_id": 1,
+      "date": "2026-09-27",
+      "status": "Present"
+    },
+    {
+      "id": 2,
+      "school_id": 1,
+      "staff_id": 2,
+      "date": "2026-09-27",
+      "status": "Present"
+    }
+  ],
+  "fees": [
+    {
+      "id": 1,
+      "school_id": 1,
+      "student_id": 1,
+      "month": "September",
+      "year": 2026,
+      "monthly_fee": 2500,
+      "previous_balance": 0,
+      "discount": 0,
+      "paid_amount": 2500,
+      "remaining_amount": 0,
+      "status": "PAID"
+    },
+    {
+      "id": 2,
+      "school_id": 1,
+      "student_id": 2,
+      "month": "September",
+      "year": 2026,
+      "monthly_fee": 2500,
+      "previous_balance": 0,
+      "discount": 500,
+      "paid_amount": 2000,
+      "remaining_amount": 0,
+      "status": "PAID"
+    },
+    {
+      "id": 3,
+      "school_id": 1,
+      "student_id": 3,
+      "month": "September",
+      "year": 2026,
+      "monthly_fee": 3500,
+      "previous_balance": 0,
+      "discount": 0,
+      "paid_amount": 0,
+      "remaining_amount": 3500,
+      "status": "PENDING"
+    }
+  ],
+  "fee_payments": [
+    {
+      "id": 1,
+      "school_id": 1,
+      "fee_id": 1,
+      "student_id": 1,
+      "receipt_no": "REC-202609-001",
+      "paid_amount": 2500,
+      "payment_method": "Cash",
+      "payment_date": "2026-09-27",
+      "notes": "Paid at reception",
+      "collected_by": "Admin"
+    },
+    {
+      "id": 2,
+      "school_id": 1,
+      "fee_id": 2,
+      "student_id": 2,
+      "receipt_no": "REC-202609-002",
+      "paid_amount": 2000,
+      "payment_method": "Bank Transfer",
+      "payment_date": "2026-09-27",
+      "notes": "Sibling discount Rs. 500 applied",
+      "collected_by": "Admin"
+    }
+  ],
+  "activity_logs": [
+    {
+      "id": 2,
+      "school_id": 1,
+      "user_id": 1,
+      "action": "User Login",
+      "record_type": "Auth",
+      "record_id": "1",
+      "details": "Logged in from 127.0.0.1",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-09-27T10:55:00.486Z"
+    },
+    {
+      "id": 1,
+      "school_id": 1,
+      "user_id": 1,
+      "action": "School Initialized",
+      "record_type": "System",
+      "record_id": "SCH-HJAMIA-01",
+      "details": "Production database initialized with institutional defaults.",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-09-27T10:55:00.429Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "sess_70e528f0f1116f9dbefeef7f6dc8b8988338f1fe34696f3b62bd4664a8e2b391",
+      "school_id": 1,
+      "user_name": "Prof. Muhammad Tariq",
+      "created_at": "2026-09-27T10:55:00.485Z"
+    }
+  ]
+}

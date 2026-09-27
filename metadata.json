@@ -1,0 +1,6 @@
+{
+  "name": "Smart School Management System",
+  "description": "Complete production-ready multi-tenant School Management System with full PHP/MySQL Hostinger deployment package, student & staff records, attendance, fees, PVC ID cards, and certificates.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

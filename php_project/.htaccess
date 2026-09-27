@@ -1,0 +1,25 @@
+# Smart School Management System - Production .htaccess for Hostinger/Apache
+Options -Indexes
+ServerSignature Off
+
+# Prevent Direct Access to Config & Sensitive Files
+<FilesMatch "^(database\.php|\.env|\.git|\.htaccess|database\.sql)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Block PHP execution in upload folders
+<Directory "uploads">
+    <FilesMatch "\.(php|php3|php4|php5|phtml|pl|py|jsp|asp|htm|shtml|sh|cgi)$">
+        Order Deny,Allow
+        Deny from all
+    </FilesMatch>
+</Directory>
+
+# UTF-8 Encoding default
+AddDefaultCharset UTF-8
+
+# Compression & Caching
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/plain text/html text/xml text/css application/xml application/xhtml+xml application/rss+xml application/javascript application/x-javascript application/json
+</IfModule>
